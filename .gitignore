@@ -1,0 +1,11 @@
+# no need to include the backups directories or files.
+*-backups
+*-bak
+*.FCStd1
+\#*.dxf
+
+# ...or the lock files.
+*.lck
+
+# or this.
+fp-info-cache
