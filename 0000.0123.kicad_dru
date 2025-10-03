@@ -1,0 +1,5 @@
+(version 1)
+(rule "inter_U1"
+	(condition "A.intersectsCourtyard('U1') && B.intersectsCourtyard('U1')")
+	(constraint clearance(min 0.235mm))
+)

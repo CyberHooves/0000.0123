@@ -3,6 +3,7 @@
 *-bak
 *.FCStd1
 \#*.dxf
+*~
 
 # ...or the lock files.
 *.lck
