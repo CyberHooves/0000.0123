@@ -6011,6 +6011,25 @@
 		)
 		(uuid "fd7b0798-e6ef-4b0f-97b5-f3ac2e096dd8")
 	)
+	(text_box "R4: Populate for single module\nor master oscillator\nR5: Populate for slave mode"
+		(exclude_from_sim no)
+		(at 27.94 59.69 0)
+		(size 57.15 11.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "03c16aa2-daca-4e57-be11-f77b14501bc8")
+	)
 	(label "GND"
 		(at 144.78 99.06 180)
 		(effects
@@ -7122,18 +7141,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0eae2dd1-dd95-4b8a-8cc6-a9b59daf7a52")
 		(property "Reference" "J1"
-			(at 44.45 113.03 0)
+			(at 44.45 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_02x08_Odd_Even"
-			(at 44.45 115.57 0)
+		(property "Value" "BH254"
+			(at 44.45 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +8798,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6857e3bf-4d48-4bf2-b177-e07f721da058")
 		(property "Reference" "#PWR0101"
 			(at 66.04 69.85 0)
@@ -8791,8 +8808,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 66.04 60.96 0)
+		(property "Value" "+12V1"
+			(at 66.04 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11675,7 +11692,7 @@
 			(uuid "242a6049-726e-4405-8952-02b6514af1d7")
 		)
 		(instances
-			(project "3255-2BTL"
+			(project "0000.0123"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(page "2")
 				)
